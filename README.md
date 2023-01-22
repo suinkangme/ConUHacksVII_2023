@@ -69,6 +69,6 @@ Then,
 - We learned how to work with the team and communicate with each other. Also, we learned how to think and use the skills need to be used to build a website. 
 
 <h4>What's next for RabbitBlackExicted23!</h4>
-- The majority of work we did in the hackathon is front-end based, and we could not implement back-end work like saving students' information to the database because we ran out of time. So, We need to work on the database and also need think about how can we effectively save the passw to students to make them study harder.  
+- 
 
 <h4>Devpost</h4>
