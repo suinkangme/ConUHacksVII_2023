@@ -21,7 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Welcome to Password Generator</h1>
+  <h1>Welcome to MemoryPass</h1>
   <form method="POST" action = "result.php">
       <div class="animal" id ="animal_jpg">
           <?php
@@ -136,14 +136,14 @@
         <hr />
 <div>
   <p class = "instruction">
-     Please enter 2-digit random number (00 ~ 99)
+     Please enter a 2-digit random number (00 ~ 99)
   </p>
   <div class = "text"><input type = text id = "numb" name = "number"/></div>
 </div>
 <hr/>
   <div>
      <p class = "instruction">
-         Please enter special character from this list:
+         Please enter a special character from this list:
      </p>
      <p class = "instruction">
         ~ ! @ # $ % ^ & * ?
