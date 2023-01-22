@@ -1,11 +1,17 @@
 body {
-  background-color: #9DC88D}
+  background-color: #9dc88d;
+}
 
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
 
 .animal {
   display: flex;
   justify-content: center;
-  padding: auto;
+  align-items: center;
   margin-top: 2%;
 }
 
@@ -15,13 +21,13 @@ body {
   margin-top: 3%;
 }
 
-.color{
+.color {
   display: flex;
   justify-content: center;
   margin-top: 8%;
 }
 
-.instruction{
+.instruction {
   display: flex;
   justify-content: center;
   margin-top: 1%;
@@ -40,22 +46,18 @@ img {
   margin-bottom: 8%;
 }
 
-table, tr, td{
-  border: 2px solid #4D774E; 
-	border-collapse: collapse;
+table,
+tr,
+td {
+  border: 2px solid #4d774e;
+  border-collapse: collapse;
 }
 
-td{
+td {
   padding: 5px;
 }
 
-.emotion_table{
+.emotion_table {
   display: flex;
   justify-content: center;
 }
-
-.submit{
-  display: flex;
-  justify-content: center;
-}
-

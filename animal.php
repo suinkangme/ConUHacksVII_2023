@@ -2,29 +2,30 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Generator</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Generator</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" //
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" //
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Welcome to Password
-        Generator</h1>
+  <h1>Welcome to Password Generator</h1>
+  <div class="animal">
+    <img src="">
+  </div>
+  <br>
+  <div class="button">
+    <button onclick="displayRandomImages();" type="button" class="btn btn-outline-success">Generate</button>
+  </div>
 
-    <div class="animal">
-        <img src="https://cdn.pixabay.com/photo/2022/01/20/15/37/monkey-6952641_1280.jpg">
-    </div>
-    <div class="button">
-        <button type="button" class="btn btn-outline-success">Generate</button>
-    </div>
 
+  <!--
     <form method=POST>
         <div>
             <p style="text-align: center; margin-top: 1%; font-family: 'Montserrat';">Please enter the name of the
@@ -77,7 +78,8 @@
             <input type=text />
 
         </div>
-
+      -->
+  <script src="generateAnimal.js"></script>
 </body>
 
 </html>
