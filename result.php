@@ -1,5 +1,12 @@
 <?php
-
+if(isset($_POST['add']))
+{
+$x=$_POST['animal'];		
+$y=$_POST['color'];		
+ 
+$sum=$x+$y ;		 
+echo "Result:<input type='text' value='$sum'/>";			
+}
  ?>
 <!DOCTYPE html>
 <html lang="en">
