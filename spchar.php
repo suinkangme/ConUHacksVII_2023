@@ -24,7 +24,10 @@
     <form method=POST>
     <div>
        <p class = "instruction">
-         Please enter special character from this list: ~ ! @ # $ % ^ & * ?
+         Please enter special character from this list:
+       </p>
+       <p class = "instruction">
+        ~ ! @ # $ % ^ & * ?
        </p>
        <div class = "text"><input type = text /></div> 
        <div class = "submit"><a href = "spchar.php"><button type= "button" onclick = myFunction()>Submit</button></a></div>     
