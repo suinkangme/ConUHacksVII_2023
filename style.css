@@ -13,7 +13,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 20px;
 }
 
 .button {
@@ -25,7 +25,7 @@ h1 {
 .color {
   display: flex;
   justify-content: center;
-  margin-top: 8%;
+  margin-top: 20px;
 }
 
 .instruction {
@@ -43,8 +43,8 @@ img {
 .text {
   display: flex;
   justify-content: center;
-  margin-top: 8%;
-  margin-bottom: 8%;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 table,
@@ -59,6 +59,11 @@ td {
 }
 
 .emotion_table {
+  display: flex;
+  justify-content: center;
+}
+
+.submit{
   display: flex;
   justify-content: center;
 }
