@@ -235,12 +235,10 @@ function displayRandomImages_color() {
       let x = document.getElementById("numb").value;
       let text;
     
-  if (isNaN(x) || x >= 100) {
-    if (x.toString().length > 2){
-      alert = ("Number is not valid");
-      return false;
+    if (x.length > 2) {
+    alert('please enter at 2 digits');
+    return false;
     }
-  }
 
   }
 </script>
