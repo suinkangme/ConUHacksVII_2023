@@ -40,11 +40,11 @@ https://github.com/yuzuryuu/ConUHacksVII
 
 <img src = "img/pic.png">
 
-<img src = "123Loadboard_Challenge/Quality_Driver_Background.png">
-This is the Challenge Question from 123LoadBoard as part of the 12th Edition of McGill CodeJam.
+This is the Challenge Question from CSE/CST as part of the 7th Edition of Concordia's ConUHacks.
+
 
 <h3>Challenge</h3>
-- Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for several hours straight, and if they are not well rested, they can experience fatigue and sleepiness on the road. Drowsiness while driving is hazardous for carriers and surrounding drivers. Keeping carriers awake and alert could save lives.
+- SE is looking to for ways to help people make more secure passwords or better decisions about cybersecurity, such as a Web App to rate the security of a password, display how long it would likely take to crack the password, and allow the user to autogenerate passwords of multiple different formats. Winners  would be chosen based on ease of use, quality of suggestions, and innovative approaches to helping people make good decisions about their cybersecurity. Bonus points for making an app that can be run locally without internet access as well as an internet website. Similar tools already exist to the above one but the differentiator here would be generating many different formats of password and running offline.
 
 
 <h3>💡Concepts💡</h3>
