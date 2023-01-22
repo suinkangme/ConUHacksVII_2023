@@ -1,7 +1,6 @@
 
 ## ConUHacksVII_2023 🙌
-: ConUHacksVII is the biggest hackthon in Quebec. 
-
+: ConUHacksVII is the biggest annual hackthon in Quebec run by HackConcordia of Concordia University.
 
 <h4>[ Duration ]🙋‍</h4>
 - JAN 21, 2023 to JAN 22, 2023 (24 hrs)
@@ -9,7 +8,7 @@
 <br>
 
 <h4>[ Judges ]🙋‍</h4>
--<i> </i>
+-<i> National Bank of Canada, Accenture, Nventive, CSE/CST, DRW, CAE, MLH, GSoft, Sun Life </i>
 
 <br>
 <br>
@@ -17,14 +16,14 @@
 ***
 
 
-<h2>Team - Ssist</h2>
+<h2>Team - Ssisters</h2>
 
 | NAME | Github | LinkedIn |
 | --- | --- | --- |
 | Sarah Michelle Ang | https://github.com/yuzuryuu | https://www.linkedin.com/in/sarah-michelle-ang-8075a2206/ |
 | Suin Kang | https://github.com/suinkangme | https://www.linkedin.com/in/suin-kang-b72b63203/ |
 | Sooah Kil | https://github.com/ | https://www.linkedin.com/in/sooah-kil-9a85a924b/ | 
-| Hyunsoo Kim | https://github.com/ | https://www.linkedin.com/in/hyun-soo-kim-b41106224/ |
+| Hyunsoo Kim | https://github.com/Mikoos83 | https://www.linkedin.com/in/hyun-soo-kim-b41106224/ |
 
 <br>
 
@@ -36,3 +35,39 @@ https://github.com/yuzuryuu/ConUHacksVII
 ***
 
 <br>
+
+## Challenge Question - RabbitBlackExicted23! <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+<img src = "img/pic.png">
+
+This is the Challenge Question from CSE/CST as part of the 7th Edition of Concordia's ConUHacks.
+
+
+<h3>Challenge</h3>
+- SE is looking to for ways to help people make more secure passwords or better decisions about cybersecurity, such as a Web App to rate the security of a password, display how long it would likely take to crack the password, and allow the user to autogenerate passwords of multiple different formats. Winners  would be chosen based on ease of use, quality of suggestions, and innovative approaches to helping people make good decisions about their cybersecurity. Bonus points for making an app that can be run locally without internet access as well as an internet website. Similar tools already exist to the above one but the differentiator here would be generating many different formats of password and running offline.
+
+
+<h3>💡Concepts💡</h3>
+- This website is a generating strong secure password for user. The generated password is long enough but easy to remember. 
+
+<h3>🎯Our solution🎯</h3>
+- 
+
+<br>
+
+<h4>Inspiration</h4>
+- Our team wants to create a website for students to help them to have better GPAs but less pressure for their university life.
+
+<h4>Challenges we ran into</h4>
+- We want to make the strong password for user, but the password must be long to be secure. However, user will have a hard time to remember the password if it is too long. So, we need to think the easier way to memorize when we create comnbination of the the letters, digits, and special characters. 
+
+<h4>Accomplishments that we're proud of</h4>
+- 
+
+<h4>What we learned</h4> 
+- We learned how to work with the team and communicate with each other. Also, we learned how to think and use the skills need to be used to build a website. 
+
+<h4>What's next for RabbitBlackExicted23!</h4>
+- The majority of work we did in the hackathon is front-end based, and we could not implement back-end work like saving students' information to the database because we ran out of time. So, We need to work on the database and also need think about how can we effectively save the passw to students to make them study harder.  
+
+<h4>Devpost</h4>

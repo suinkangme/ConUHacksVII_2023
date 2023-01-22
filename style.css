@@ -5,7 +5,8 @@ body {
 .animal {
   display: flex;
   justify-content: center;
-  margin-top: 8%;
+  padding: auto;
+  margin-top: 2%;
 }
 .button {
   display: flex;
