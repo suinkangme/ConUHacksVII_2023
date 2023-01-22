@@ -112,7 +112,7 @@
         </div>
   <hr/>
         <div>
-           <p class = "instruction">Please choose one of the word in the table.</p>
+           
            <div class = "emotion_table">
            <table>
              <tr>
@@ -131,6 +131,7 @@
              </tr>
            </table>
            </div>
+           <p class = "instruction">Please choose one word in the table.</p>
             <div class = "text"><input type = text name= "word_emotion"/></div>
         <hr />
 <div>
