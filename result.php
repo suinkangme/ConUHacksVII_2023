@@ -39,9 +39,11 @@ foreach ($temp as $letter){
 <body>
     <h1>Your password is ...</h1>
     <div>
-      <?php echo $result_caps; ?>
+      <h3 style= "text-align: center;">
+          <?php echo "<b>".$result_caps."</b>" ?>
+      </h3>
     </div>
-
+  <div class = "submit"><a href = "final.php"><button type= "button">Try Again</button></a></div>
 </body>
 
 </html>
