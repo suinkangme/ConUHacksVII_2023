@@ -243,6 +243,6 @@ function displayRandomImages_color() {
     }
   }
 
-}
+  }
 </script>
 </html>
