@@ -8,6 +8,7 @@ body {
   padding: auto;
   margin-top: 2%;
 }
+
 .button {
   display: flex;
   justify-content: center;
@@ -49,6 +50,11 @@ td{
 }
 
 .emotion_table{
+  display: flex;
+  justify-content: center;
+}
+
+.submit{
   display: flex;
   justify-content: center;
 }

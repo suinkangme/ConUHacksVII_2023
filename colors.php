@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Generator</title>
+    <title>Color Generator</title>
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" //
@@ -19,7 +19,7 @@
     <form method=POST>
         <div>
             <div class = "color">
-             <?php
+              <?php
               $key2 = rand(0, 7);
                switch($key2){
                  case 0:
@@ -49,10 +49,11 @@
              </div>
             <br/>
             <div class = "instruction">Please enter the name of the color in the above image.</div>
-            <div class="button"><button type="button" class="btn btn-outline-success" onclick="myFunction()">Generate</button></div>
-            <div class ="text"><input type = text /></div>            
+            <div class="button"><button type="button" class="btn btn-outline-success" onclick="generate()">Generate</button></div>
+            <div class ="text"><input type = text /></div> 
+            <div class = "submit"><a href = "emotions.php"><button type= "button">Submit</button></a></div>     
           </div>
-
+          </form>
 </body>
 
 </html>

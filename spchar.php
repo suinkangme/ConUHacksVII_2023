@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Generator</title>
+    <title>Special Char Generator</title>
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" //
@@ -21,13 +21,12 @@
     <form method=POST>
     <div>
        <p class = "instruction">
-          Please enter 2-digit random number (00 ~ 99)
+         Please enter special character from this list: ~ ! @ # $ % ^ & * ?
        </p>
-       <div class = "text"><input type = text id = "numb"/></div>
-        <div class = "submit"><a href = "spchar.php"><button type= "button" onclick = myFunction()>Submit</button></a></div>     
-        <p id = "demo"></p>
+       <div class = "text"><input type = text /></div> 
+       <div class = "submit"><a href = "spchar.php"><button type= "button" onclick = myFunction()>Submit</button></a></div>     
      </div>
-     </form>
+</form>
 </body>
 
 </html>
