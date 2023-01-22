@@ -130,11 +130,15 @@
   function myFunction() {
       let x = document.getElementById("numb").value;
       let text;
-      if (isNaN(x) || x >= 100) {
-         text = "Input not valid";
-      }else {
-         text = "Input OK";
-  }
+         
+      if (/^[0-9]{2}$/.test(x)) {
+        if (isNaN(x) || x >= 100) {
+         text = "Number is not valid";
+        }else {
+         text = "OK";
+        }         
+      }   
+   
   document.getElementById("demo").innerHTML = text;
 }
 
