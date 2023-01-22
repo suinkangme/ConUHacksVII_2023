@@ -53,8 +53,9 @@
              ?>
              </div>
             <br/>
-            <div class = "instruction">Please enter the name of the color of the image above.</div>
+            
             <div class="button"><button onclick="displayRandomImages();" type="button" class="btn btn-outline-success">I want another color</button></div>
+            <div class = "instruction">Please enter the name of the color of the image above.</div>
             <div class ="text"><input type = text /></div> 
             <div class = "submit"><a href = "emotions.php"><button type= "button">Submit</button></a></div>     
           </div>

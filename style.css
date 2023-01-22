@@ -1,6 +1,6 @@
 body {
   background-color: #9dc88d;
-  font-family: 'Zilla Slab', serif;
+  font-family: "Zilla Slab", serif;
 }
 
 h1 {
@@ -32,11 +32,12 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 1%;
+  font-size: 30px;
 }
 
 img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
 
@@ -63,7 +64,7 @@ td {
   justify-content: center;
 }
 
-.submit{
+.submit {
   display: flex;
   justify-content: center;
 }
