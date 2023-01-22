@@ -23,7 +23,7 @@
   <h1>Welcome to Password Generator</h1>
     <form method=POST>
         <div>
-        <div class="animal">
+        <div class="animal" id ="animal_jpg">
             <?php
               $key1 = rand (0, 11);
               switch($key1){

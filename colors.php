@@ -23,7 +23,7 @@
 
     <form method=POST>
         <div>
-            <div class = "color">
+            <div class = "color" id = "color_img">
               <?php
               $key2 = rand(0, 7);
                switch($key2){

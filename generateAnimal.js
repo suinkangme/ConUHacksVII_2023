@@ -35,5 +35,5 @@ function displayRandomImages() {
   for (var p = 0; p < l; p++) {  
      images[0].parentNode.removeChild(images[0]);  
   }  
-document.body.appendChild(newImage);  
+document.getElementById("animal_jpg").appendChild(newImage);  
 }
