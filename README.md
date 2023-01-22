@@ -62,7 +62,8 @@ This is the Challenge Question from CSE/CST as part of the 7th Edition of Concor
 - We want to make the strong password for user, but the password must be long to be secure. However, user will have a hard time to remember the password if it is too long. So, we need to think the easier way to memorize when we create comnbination of the the letters, digits, and special characters. 
 
 <h4>Accomplishments that we're proud of</h4>
-- 
+- Firstable, we find the way how we can make the password as long as much possible. We decide to use image to user by giving strong impression to users
+Then, 
 
 <h4>What we learned</h4> 
 - We learned how to work with the team and communicate with each other. Also, we learned how to think and use the skills need to be used to build a website. 
