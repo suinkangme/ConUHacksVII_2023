@@ -1,3 +1,7 @@
+<?php
+var_dump($_POST);
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,11 +25,11 @@
 
 <body>
 
-    <form method=POST>
+    <form method="POST" action = "emotions.php">
         <div>
             <div class = "color" id = "color_img">
               <?php
-              $key2 = rand(0, 7);
+              $key2 = rand(0, 6);
                switch($key2){
                  case 0:
                    echo "<img src = \"img/color/0.png\" width =\"400\" height = \"400\"\">";
@@ -46,21 +50,25 @@
                    echo "<img src = \"img/color/5.png\" width =\"400\" height = \"400\"\">";
                    break;
                  case 6:
-                   // echo "<img src = \"img/color/6.jpg\" width =\"400\" height = \"400\"\">";
-                   // break;
+                   echo "<img src = \"img/color/6.png\" width =\"400\" height = \"400\"\">";
+                   break;
                }
                echo "<br/>"
              ?>
              </div>
             <br/>
-            
+
             <div class="button"><button onclick="displayRandomImages();" type="button" class="btn btn-outline-success">I want another color</button></div>
             <div class = "instruction">Please enter the name of the color of the image above.</div>
-            <div class ="text"><input type = text /></div> 
-            <div class = "submit"><a href = "emotions.php"><button type= "button">Submit</button></a></div>     
+            <div class ="text" ><input type = text  name ="word_color" />
+          </div>
+            <div class = "submit">
+              <input type = "submit"/>
+            </div>
+            <!-- <div class = "submit"><a href = "emotions.php"><button type= "button">Submit</button></a></div> -->
           </div>
           </form>
-          <script src="generateColor.js"></script>
-</body>
 
+</body>
+    <script src="generateColor.js"></script>
 </html>

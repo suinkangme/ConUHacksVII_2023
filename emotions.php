@@ -1,3 +1,8 @@
+<?php
+var_dump($_POST);
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +48,7 @@
        </table>
        </div>
         <div class = "text"><input type = text /></div>
-        <div class = "submit"><a href = "number.php"><button type= "button">Submit</button></a></div>     
+        <div class = "submit"><a href = "number.php"><button type= "button">Submit</button></a></div>
 
      </div>
      <div>

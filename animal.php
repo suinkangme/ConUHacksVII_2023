@@ -25,7 +25,7 @@
 <body>
 
   <h1>Welcome to Password Generator</h1>
-    <form method=POST>
+    <form method="POST" action = "colors.php">
         <div>
         <div class="animal" id ="animal_jpg">
             <?php
@@ -75,10 +75,14 @@
 
             <div class="button"><button onclick="displayRandomImages();" type="button" class="btn btn-outline-success">I want another animal</button></div>
             <div class = "instruction">Please enter the name of the animal of the image above.</div>
-            <div class ="text"><input type = text /></div>
-            <div class = "submit"><a href = "colors.php"><button type= "button">Submit</button></a></div>
+            <!-- <div class ="text"><input type = text /></div> -->
+            <!-- <div class = "submit"><a href = "colors.php"><button type= "button">Submit</button></a></div> -->
         </div>
-  <script src="generateAnimal.js"></script>
+        <div class = "text"><input type = "text" name = "word_animal" /></div>
+        <div class ="submit">
+          <input type = "submit"/>
+        </div>
+</form>
 </body>
-
+  <script src="generateAnimal.js"></script>
 </html>
