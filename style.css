@@ -1,7 +1,14 @@
+h1 {
+  text-align: center;
+  padding-top: 4%;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
 .animal {
   display: flex;
   justify-content: center;
-  margin-top: 8%;
+  padding: auto;
+  margin-top: 2%;
 }
 .button {
   display: flex;
