@@ -27,8 +27,14 @@
 
 <br>
 
-<h2>[ Repo ]</h4>
+<h2>[ Repo ]</h2>
 https://github.com/yuzuryuu/ConUHacksVII
+
+<br>
+
+
+<h2>[ Devpost ]</h2>
+https://devpost.com/software/rabbitblackexcited23
 
 <br>
 
@@ -58,17 +64,19 @@ This is the Challenge Question from CSE/CST as part of the 7th Edition of Concor
 <h4>Inspiration</h4>
 - How can we make strong but memorable passwords? The combination of random letters like 'tNxOp3?' used to be suggested to create stronger passwords than weak ones such as 'qwerty123,' 'passwords456'... . However, not only have users hard time remembering them, but also the length has been pointed to be the most important factor. We are inspired by the presentation of CSE/CST, 'Making and Breaking Passwords,' and developed the tool that helps the user to create a secure password.
 
+
 <h4>Challenges we ran into</h4>
 - We want to make the strong password for user, but the password must be long to be secure. However, user will have a hard time to remember the password if it is too long. So, we need to think the easier way to memorize when we create comnbination of the the letters, digits, and special characters. 
 
+
 <h4>Accomplishments that we're proud of</h4>
-- Firstable, we find the way how we can make the password as long as much possible. We decide to use image to user by giving strong impression to users
-Then, 
+- First of all, we find the way how we can make the password as long as much possible. We decide to use image to user by giving strong impression to users. Also, for as long password as possible, animals, colours, and emotion with too short names were excluded in the list. We used to generated personal passwords only before, but we were glad that I learned how to create a strong password for users from the developer's point of view.
+
 
 <h4>What we learned</h4> 
-- We learned how to work with the team and communicate with each other. Also, we learned how to think and use the skills need to be used to build a website. 
+- We usually create and use passwords without considering security, but in fact, it turns out that our method of combining passwords is very vulnerable to security. By thinking about how passwords should be combined and created for secure, we learned which passwords are vulnerable to security and powerful. Also, we learned how to work with the team and communicate with each other.
+
 
 <h4>What's next for RabbitBlackExicted23!</h4>
-- 
+- After generating the password, it was shown directly to the user on the website, which is very vulnerable to security. We've also considered sending text files or emails without displaying the results right away, but this is also a bad security method. Accordingly, it is necessary to consider how to generate and send a password to the user, and how to save it in a database in case the user forgets it after generating the password, and to link it with an existing application that manages the password like 1password.
 
-<h4>Devpost</h4>
