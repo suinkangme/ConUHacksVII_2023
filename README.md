@@ -51,12 +51,12 @@ This is the Challenge Question from CSE/CST as part of the 7th Edition of Concor
 - This website is a generating strong secure password for user. The generated password is long enough but easy to remember. 
 
 <h3>🎯Our solution🎯</h3>
-- 
+- Good passwords need to meet two conditions: 1. it has to be long enough, 2. and it should be easy to remember. Our password generator 'RabbitBlackExcited23!' combine three different words, 2-digit numbers, and special character. First, to choose three words, the generator presents the photo of animal and the photo of color consecutively, then prompt a user to type in each word that corresponds the photos. By asking them input the word, it makes user be cognitively engaged to the words, which will lead to better password memorization. This also opens Next, they can pick one adjective word from the list. Only the words with longer or equal to length 5 were chosen to guarantee that the entire password be long enough. After users type in those words, they should put 2-digit numbers and add one special character.
 
 <br>
 
 <h4>Inspiration</h4>
-- Our team wants to create a website for students to help them to have better GPAs but less pressure for their university life.
+- How can we make strong but memorable passwords? The combination of random letters like 'tNxOp3?' used to be suggested to create stronger passwords than weak ones such as 'qwerty123,' 'passwords456'... . However, not only have users hard time remembering them, but also the length has been pointed to be the most important factor. We are inspired by the presentation of CSE/CST, 'Making and Breaking Passwords,' and developed the tool that helps the user to create a secure password.
 
 <h4>Challenges we ran into</h4>
 - We want to make the strong password for user, but the password must be long to be secure. However, user will have a hard time to remember the password if it is too long. So, we need to think the easier way to memorize when we create comnbination of the the letters, digits, and special characters. 
