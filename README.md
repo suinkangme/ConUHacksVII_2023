@@ -23,7 +23,7 @@
 | Sarah Michelle Ang | https://github.com/yuzuryuu | https://www.linkedin.com/in/sarah-michelle-ang-8075a2206/ |
 | Suin Kang | https://github.com/suinkangme | https://www.linkedin.com/in/suin-kang-b72b63203/ |
 | Sooah Kil | https://github.com/ | https://www.linkedin.com/in/sooah-kil-9a85a924b/ | 
-| Hyunsoo Kim | https://github.com/ | https://www.linkedin.com/in/hyun-soo-kim-b41106224/ |
+| Hyunsoo Kim | https://github.com/Mikoos83 | https://www.linkedin.com/in/hyun-soo-kim-b41106224/ |
 
 <br>
 
