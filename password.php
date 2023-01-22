@@ -112,7 +112,10 @@
        <p>
           Please enter 2-digit random number (00 ~ 99)
        </p>
-        <input type = text />
+        <input type = text id = "numb"/>
+
+      <button type= "button" onclick = myFunction()>Submit</button>
+        <p id = "demo"></p>
      </div>
      <div>
        <p>
@@ -120,11 +123,21 @@
        </p>
  <input type = text />
      </div>
-     <button>Submit</button>
+     <button type= "button">Submit</button>
    </form>
  </body>
-<sript>
+<script>
+  function myFunction() {
+      let x = document.getElementById("numb").value;
+      let text;
+      if (isNaN(x) || x >= 100) {
+         text = "Input not valid";
+      }else {
+         text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
 
-</sript>
+</script>
 
  </html>
