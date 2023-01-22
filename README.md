@@ -36,7 +36,7 @@ https://github.com/yuzuryuu/ConUHacksVII
 
 <br>
 
-## Website - RabbitBlackExicted23! Strong Password Generator 📝 
+## Website - RabbitBlackExicted23! 📝 
 
 <img src = "img/pic.png">
 
@@ -45,7 +45,7 @@ https://github.com/yuzuryuu/ConUHacksVII
 - This website is a generating strong secure password for user. The generated password is long enough but easy to remember. 
 
 <h3>🎯Our solution🎯</h3>
-- SchoolMate provides personalized schedules for every single student, who wishes to improve their GPA and create effective schedules to manage their school workload. It shows how many hours you study for a specific course, and tell which course you need to study more. Also, there is a progress status so that students can see how much percentage they accomplish their study goals. It inspires them to keep studying harder. 
+- 
 
 <br>
 
@@ -53,19 +53,19 @@ https://github.com/yuzuryuu/ConUHacksVII
 - Our team wants to create a website for students to help them to have better GPAs but less pressure for their university life.
 
 <h4>Challenges we ran into</h4>
-- Since we did not know many tech stacks, we needed to learn by ourselves to implement the function we wanted. But, it was worth it, we learned from this experience. 
+- We want to make the strong password for user, but the password must be long to be secure. However, user will have a hard time to remember the password if it is too long. So, we need to think the easier way to memorize when we create comnbination of the the letters, digits, and special characters. 
 
 <h4>Accomplishments that we're proud of</h4>
-- Even though we are beginners, we succeeded in making the website, which can help students like us. 
+- 
 
 <h4>What we learned</h4> 
 - We learned how to work with the team and communicate with each other. Also, we learned how to think and use the skills need to be used to build a website. 
 
-<h4>What's next for SchoolMate</h4>
-- The majority of work we did in the hackathon is front-end based, and we could not implement back-end work like saving students' information to the database because we ran out of time. So, We need to work on the database and also need think about how can we effectively give inspiration to students to make them study harder.  
+<h4>What's next for RabbitBlackExicted23!</h4>
+- The majority of work we did in the hackathon is front-end based, and we could not implement back-end work like saving students' information to the database because we ran out of time. So, We need to work on the database and also need think about how can we effectively save the passw to students to make them study harder.  
 
 <h4>Devpost</h4>
-https://devpost.com/software/schoolmate
+
 
 ***
 
