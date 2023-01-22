@@ -27,10 +27,15 @@
 
 <br>
 
-<h2>[ Repo ]</h4>
+<h2>[ Repo ]</h2>
 https://github.com/yuzuryuu/ConUHacksVII
 
 <br>
+
+
+<h2>[ Devpost ]</h2>
+https://devpost.com/software/rabbitblackexcited23
+
 
 ***
 
@@ -74,6 +79,3 @@ This is the Challenge Question from CSE/CST as part of the 7th Edition of Concor
 <h4>What's next for RabbitBlackExicted23!</h4>
 - After generating the password, it was shown directly to the user on the website, which is very vulnerable to security. We've also considered sending text files or emails without displaying the results right away, but this is also a bad security method. Accordingly, it is necessary to consider how to generate and send a password to the user, and how to save it in a database in case the user forgets it after generating the password, and to link it with an existing application that manages the password like 1password.
 
-
-<h4>Devpost</h4>
-https://devpost.com/software/rabbitblackexcited23
