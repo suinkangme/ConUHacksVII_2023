@@ -1,0 +1,16 @@
+.animal {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
