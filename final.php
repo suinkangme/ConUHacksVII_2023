@@ -29,40 +29,40 @@
             $key1 = rand (0, 11);
             switch($key1){
               case 0:
-                echo "<img src = \"img/animal/0.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\"src = \"img/animal/0.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 1:
-                echo "<img src = \"img/animal/1.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\"src = \"img/animal/1.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 2:
-                echo "<img src = \"img/animal/2.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\"src = \"img/animal/2.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 3:
-                echo "<img src = \"img/animal/3.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\"src = \"img/animal/3.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 4:
-                echo "<img src = \"img/animal/4.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\" src = \"img/animal/4.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 5:
-                echo "<img src = \"img/animal/5.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\" src = \"img/animal/5.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 6:
-                echo "<img src = \"img/animal/6.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\" src = \"img/animal/6.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 7:
-                echo "<img src = \"img/animal/7.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\" src = \"img/animal/7.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 8:
-                echo "<img src = \"img/animal/8.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\" src = \"img/animal/8.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 9:
-                echo "<img src = \"img/animal/9.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\" src = \"img/animal/9.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 10:
-                echo "<img src = \"img/animal/10.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\" src = \"img/animal/10.jpg\" width =\"400\" height = \"400\"\">";
                 break;
               case 11:
-                echo "<img src = \"img/animal/11.jpg\" width =\"400\" height = \"400\"\">";
+                echo "<img id = \"a_img\" src = \"img/animal/11.jpg\" width =\"400\" height = \"400\"\">";
                 break;
             }
             echo "<br/>"
@@ -81,25 +81,25 @@
             $key2 = rand(0, 6);
              switch($key2){
                case 0:
-                 echo "<img src = \"img/color/0.png\" width =\"400\" height = \"400\"\">";
+                 echo "<img id = \"c_img\" src = \"img/color/0.png\" width =\"400\" height = \"400\"\">";
                  break;
                case 1:
-                 echo "<img src = \"img/color/1.png\" width =\"400\" height = \"400\"\">";
+                 echo "<img id = \"c_img\" src = \"img/color/1.png\" width =\"400\" height = \"400\"\">";
                  break;
                case 2:
-                 echo "<img src = \"img/color/2.png\" width =\"400\" height = \"400\"\">";
+                 echo "<img id = \"c_img\" src = \"img/color/2.png\" width =\"400\" height = \"400\"\">";
                  break;
                case 3:
-                 echo "<img src = \"img/color/3.png\" width =\"400\" height = \"400\"\">";
+                 echo "<img id = \"c_img\" src = \"img/color/3.png\" width =\"400\" height = \"400\"\">";
                  break;
                case 4:
-                 echo "<img src = \"img/color/4.png\" width =\"400\" height = \"400\"\">";
+                 echo "<img id = \"c_img\" src = \"img/color/4.png\" width =\"400\" height = \"400\"\">";
                  break;
                case 5:
-                 echo "<img src = \"img/color/5.png\" width =\"400\" height = \"400\"\">";
+                 echo "<img id = \"c_img\" src = \"img/color/5.png\" width =\"400\" height = \"400\"\">";
                  break;
                case 6:
-                 echo "<img src = \"img/color/6.png\" width =\"400\" height = \"400\"\">";
+                 echo "<img id = \"c_img\" src = \"img/color/6.png\" width =\"400\" height = \"400\"\">";
                  break;
              }
              echo "<br/>"
@@ -180,6 +180,8 @@ function displayRandomImages_animal() {
     for (let i = 0; i < arrayLength; i++) {
         newArray[i] = new Image();
         newArray[i].src = imgArray[i].src;
+        newArray[i].id = "a_img";
+
     }
 
   function getRandomNum(min, max)
@@ -191,48 +193,44 @@ function displayRandomImages_animal() {
   let newImage = getRandomNum(0, newArray.length - 1);
 
 
-  let images = document.getElementsByTagName('img');
-  let l = images.length;
-  for (let p = 0; p < l; p++) {
-     images[0].parentNode.removeChild(images[0]);
-  }
+  let images = document.getElementById('a_img');
+     images.parentNode.removeChild(images);
 document.getElementById("animal_jpg").appendChild(newImage);
 }
 
 
 function displayRandomImages_color() {
-    const imgArray = [
-    { src: "img/color/0.png" },
-    { src: "img/color/1.png" },
-    { src: "img/color/2.png" },
+    const imgArray2 = [
+    { src: "img/color/0.png"},
+    { src: "img/color/1.png"},
+    { src: "img/color/2.png"},
     { src: "img/color/3.png" },
     { src: "img/color/4.png" },
     { src: "img/color/5.png" },
     { src: "img/color/6.png" },
 ];
 
-    let arrayLength = imgArray.length;
-    let newArray = [];
-    for (let i = 0; i < arrayLength; i++) {
-        newArray[i] = new Image();
-        newArray[i].src = imgArray[i].src;
+    var arrayLength2 = imgArray2.length;
+    var newArray2 = [];
+    for (var i = 0; i < arrayLength2; i++) {
+        newArray2[i] = new Image();
+        newArray2[i].src = imgArray2[i].src;
+        newArray2[i].id = "c_img";
+
     }
 
   function getRandomNum(min, max)
   {
       imgNo = Math.floor(Math.random() * (max - min + 1)) + min;
-      return newArray[imgNo];
+      return newArray2[imgNo];
   }
 
-  let newImage = getRandomNum(0, newArray.length - 1);
+  var newImage2 = getRandomNum(0, newArray2.length - 1);
 
 
-  let images = document.getElementsByTagName('img');
-  let l = images.length;
-  for (var p = 0; p < l; p++) {
-     images[0].parentNode.removeChild(images[0]);
-  }
-document.getElementById("color_img").appendChild(newImage);
+  var images2 = document.getElementById("c_img");
+     images2.parentNode.removeChild(images2);
+document.getElementById("color_img").appendChild(newImage2);
 }
 
 function myFunction() {

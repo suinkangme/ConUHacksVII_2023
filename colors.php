@@ -32,25 +32,25 @@ var_dump($_POST);
               $key2 = rand(0, 6);
                switch($key2){
                  case 0:
-                   echo "<img src = \"img/color/0.png\" width =\"400\" height = \"400\"\">";
+                   echo "<img id = \"c_img\" id = \"c_img\" src = \"img/color/0.png\" width =\"400\" height = \"400\"\">";
                    break;
                  case 1:
-                   echo "<img src = \"img/color/1.png\" width =\"400\" height = \"400\"\">";
+                   echo "<img id = \"c_img\" src = \"img/color/1.png\" width =\"400\" height = \"400\"\">";
                    break;
                  case 2:
-                   echo "<img src = \"img/color/2.png\" width =\"400\" height = \"400\"\">";
+                   echo "<img id = \"c_img\" src = \"img/color/2.png\" width =\"400\" height = \"400\"\">";
                    break;
                  case 3:
-                   echo "<img src = \"img/color/3.png\" width =\"400\" height = \"400\"\">";
+                   echo "<img id = \"c_img\" src = \"img/color/3.png\" width =\"400\" height = \"400\"\">";
                    break;
                  case 4:
-                   echo "<img src = \"img/color/4.png\" width =\"400\" height = \"400\"\">";
+                   echo "<img id = \"c_img\" src = \"img/color/4.png\" width =\"400\" height = \"400\"\">";
                    break;
                  case 5:
-                   echo "<img src = \"img/color/5.png\" width =\"400\" height = \"400\"\">";
+                   echo "<img id = \"c_img\" src = \"img/color/5.png\" width =\"400\" height = \"400\"\">";
                    break;
                  case 6:
-                   echo "<img src = \"img/color/6.png\" width =\"400\" height = \"400\"\">";
+                   echo "<img id = \"c_img\" src = \"img/color/6.png\" width =\"400\" height = \"400\"\">";
                    break;
                }
                echo "<br/>"
@@ -58,7 +58,7 @@ var_dump($_POST);
              </div>
             <br/>
 
-            <div class="button"><button onclick="displayRandomImages();" type="button" class="btn btn-outline-success">I want another color</button></div>
+            <div class="button"><button onclick="displayRandomImages_color();" type="button" class="btn btn-outline-success">I want another color</button></div>
             <div class = "instruction">Please enter the name of the color of the image above.</div>
             <div class ="text" ><input type = text  name ="word_color" />
           </div>

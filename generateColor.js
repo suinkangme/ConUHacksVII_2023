@@ -1,6 +1,6 @@
 function displayRandomImages_color() {
     const imgArray = [
-    { src: "img/color/0.png" },
+    { src: "img/color/0.png",},
     { src: "img/color/1.png" },
     { src: "img/color/2.png" },
     { src: "img/color/3.png" },
@@ -26,7 +26,7 @@ function displayRandomImages_color() {
 
   var images = document.getElementsByTagName('img');
   var l = images.length;
-  for (var p = 0; p < l; p++) {
+  for (var p = 0; p < 1; p++) {
      images[0].parentNode.removeChild(images[0]);
   }
 document.getElementById("color_img").appendChild(newImage);
