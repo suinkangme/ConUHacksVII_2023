@@ -5,7 +5,7 @@ function displayRandomImages() {
     { src: "img/color/2.png" },
     { src: "img/color/3.png" },
     { src: "img/color/4.png" },
-    { src: "img/animal/5.jpg" },
+    { src: "img/color/5.png" },
 ];
 
     var arrayLength = imgArray.length;  

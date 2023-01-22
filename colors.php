@@ -54,11 +54,12 @@
              </div>
             <br/>
             <div class = "instruction">Please enter the name of the color in the above image.</div>
-            <div class="button"><button type="button" class="btn btn-outline-success" onclick="generate()">Generate</button></div>
+            <div class="button"><button onclick="displayRandomImages();" type="button" class="btn btn-outline-success">I want another color</button></div>
             <div class ="text"><input type = text /></div> 
             <div class = "submit"><a href = "emotions.php"><button type= "button">Submit</button></a></div>     
           </div>
           </form>
+          <script src="generateColor.js"></script>
 </body>
 
 </html>

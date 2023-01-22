@@ -21,7 +21,7 @@
   </div>
   <br>
   <div class="button">
-    <button onclick="displayRandomImages();" type="button" class="btn btn-outline-success">Generate</button>
+    <button onclick="displayRandomImages();" type="button" class="btn btn-outline-success"></button>
   </div>
 
 
