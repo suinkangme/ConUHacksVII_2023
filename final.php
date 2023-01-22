@@ -69,7 +69,7 @@
            </div>
            <br/>
 
-          <div class="button"><button onclick="displayRandomImages_animal();" type="button" class="btn btn-outline-success">I want another animal</button></div>
+          <div class="button"><button onclick="displayRandomImages_animal();" type="button" class="btn btn-outline-light">I want another animal</button></div>
           <div class = "instruction">Please enter the name of the animal of the image above.</div>
 
       <div class = "text"><input type = "text" name = "word_animal" /></div>
@@ -106,7 +106,7 @@
            </div>
           <br/>
 
-          <div class="button"><button onclick="displayRandomImages_color();" type="button" class="btn btn-outline-success">I want another color</button></div>
+          <div class="button"><button onclick="displayRandomImages_color();" type="button" class="btn btn-outline-light">I want another color</button></div>
           <div class = "instruction">Please enter the name of the color of the image above.</div>
           <div class ="text" ><input type = text  name="word_color" />
         </div>
@@ -151,7 +151,7 @@
      <div class = "text"><input type = text name = "word_specialchar"/></div>
 
      <div class ="submit" />
-     <input type = "submit" onclick = myFunction()/>
+     <input type = "submit" class="btn btn-outline-light" onclick = myFunction()/>
      </div>
 </form>
 </body>

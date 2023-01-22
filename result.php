@@ -43,7 +43,7 @@ foreach ($temp as $letter){
           <?php echo "<b>".$result_caps."</b>" ?>
       </h3>
     </div>
-  <div class = "submit"><a href = "final.php"><button type= "button">Try Again</button></a></div>
+  <div class = "submit"><a href = "final.php"><button type= "button" class="btn btn-outline-light">Try Again</button></a></div>
 </body>
 
 </html>
