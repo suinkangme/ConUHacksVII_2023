@@ -140,8 +140,6 @@
   </p>
   <div class = "text"><input type = text id = "numb" name = "number"/></div>
 </div>
-  <p id = "demo"></p>
-
 <hr/>
   <div>
      <p class = "instruction">
@@ -153,8 +151,8 @@
 
      <div class = "text"><input type = text name = "word_specialchar"/></div>
 
-     <div class ="submit">
-     <input type = "submit"/>
+     <div class ="submit" />
+     <input type = "submit" onclick = myFunction()/>
      </div>
 </form>
 </body>
@@ -240,15 +238,13 @@ function myFunction() {
     if (/^[0-9]{2}$/.test(x)) {
       alert = ("Number is not valid");
       return false;
-      
+
       if (isNaN(x) || x >= 100) {
        alert = ("Number is not valid");
       }else {
        alert = ("OK");
       }
     }
-
-document.getElementById("demo").innerHTML = text;
 }
 </script>
 </html>
