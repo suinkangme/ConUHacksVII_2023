@@ -30,7 +30,7 @@
         ~ ! @ # $ % ^ & * ?
        </p>
        <div class = "text"><input type = text /></div> 
-       <div class = "submit"><a href = "spchar.php"><button type= "button" onclick = myFunction()>Submit</button></a></div>     
+       <div class = "submit"><a href = "result.php"><button type= "button" onclick = myFunction()>Submit</button></a></div>     
      </div>
 </form>
 </body>
