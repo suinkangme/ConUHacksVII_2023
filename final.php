@@ -228,23 +228,21 @@ function displayRandomImages_color() {
 
   var images2 = document.getElementById("c_img");
      images2.parentNode.removeChild(images2);
-document.getElementById("color_img").appendChild(newImage2);
-}
+  document.getElementById("color_img").appendChild(newImage2);
+  }
 
-function myFunction() {
-    let x = document.getElementById("numb").value;
-    let text;
-
-    if (/^[0-9]{2}$/.test(x)) {
+  function myFunction() 
+  {
+      let x = document.getElementById("numb").value;
+      let text;
+    
+  if (isNaN(x) || x >= 100) {
+    if (x.toString().length > 2){
       alert = ("Number is not valid");
       return false;
-
-      if (isNaN(x) || x >= 100) {
-       alert = ("Number is not valid");
-      }else {
-       alert = ("OK");
-      }
     }
+  }
+
 }
 </script>
 </html>
