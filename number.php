@@ -34,4 +34,18 @@
      </form>
 </body>
 
+<script>
+  function myFunction() {
+      let x = document.getElementById("numb").value;
+      let text;
+      if (isNaN(x) || x >= 100) {
+         text = "Input not valid";
+      }else {
+         text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+
+</script>
+
 </html>
